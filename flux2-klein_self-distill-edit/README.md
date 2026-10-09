@@ -14,7 +14,7 @@
 In D-OPSD, our view of the key to preserving few-step performance is that the alignment target should come from the same few-step distribution, while the input states should be generated from the model’s own rollouts. 
 
 For omini models such as Flux2-Klein, the construction of teacher context can be considerably more diverse and creative. In our former experiments, we found that although using VLM features as strong context is effective, it often falls short 
-in scenarios where extremely high identity fidelity is required. Therefore, based on feedback from the community contributor [Zizhou](https://github.com/ultranationalism), we adopt the Editing branch as the teacher, while keeping the training procedure within the 
+in scenarios where extremely high identity fidelity is required. Therefore,  we adopt the Editing branch as the teacher, while keeping the training procedure within the 
 same D-OPSD framework. The overall pipeline is illustrated above, and the training results are shown below. As can be observed, this training strategy is more effective at preserving identity consistency.
 
 
@@ -117,7 +117,7 @@ image_lora.save("samples/samples_step_i_student.png")
 This code is mainly built upon [DMDR](https://github.com/vvvvvjdy/dmdr/), [Flux2](https://github.com/black-forest-labs/flux2) repositories. 
 Thanks for  their contributions to the community.
 
-We also want to thank the community contributor [Zizhou](https://github.com/ultranationalism) for the insightful feedback and suggestions on the training strategy.
+
 
 
 
