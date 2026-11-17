@@ -22,6 +22,14 @@ pip install -r requirements.txt
 ```
 ****
 
+### 🤖 Agent Guide for Adapting D-OPSD to New Models
+
+If you want to adapt D-OPSD to new models or datasets, you can refer to our [agent guide](agent-guide/README.md) to help your coding agent understand the core ideas and implement the adaptation.
+
+
+Note that teacher context can be constructed in different ways depending on the model and task. Further ideas and questions are welcome in [Issues](https://github.com/vvvvvjdy/D-OPSD/issues).
+
+****
 
 
 ### 🍬 Training 
