@@ -1,4 +1,8 @@
-<h1 align="center">D-OPSD<br><sub><sup>On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models</sup></sub></h1>
+<h1 align="center">
+  D-OPSD<br>
+  <sub><sup>On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models</sup></sub><br>
+  <sub><sup><em>NeurIPS 2026</em></sup></sub>
+</h1>
 
 <div align="center">
 
