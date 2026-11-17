@@ -65,8 +65,8 @@ Our recommended objective follows the public code: for a rollout with `K` steps,
 
 $$
 \mathcal L = \frac{1}{K}\sum_{k=1}^{K}
-\operatorname{MSE}\!\left(
-\hat x_{0,s}^{(k)},\operatorname{sg}(\hat x_{0,T}^{(k)})
+\mathrm{MSE}\left(
+\hat x_{0,s}^{(k)},\mathrm{sg}(\hat x_{0,T}^{(k)})
 \right).
 $$
 
